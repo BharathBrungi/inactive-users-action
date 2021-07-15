@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.OCTODEMO_TOKEN }}
           organization: AAInternal
           activity_days: 90
-          octokit_max_retries: 3
+#          octokit_max_retries: 3
           
 #       - name: Validate Outputs
 #         run: |
